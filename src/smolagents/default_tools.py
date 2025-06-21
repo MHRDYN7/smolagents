@@ -26,7 +26,7 @@ from .tools import PipelineTool, Tool
 
 
 @dataclass
-class PreTool:
+class PreTool:  # Study this
     name: str
     inputs: dict[str, str]
     output_type: type
